@@ -1,0 +1,7 @@
+# _config.yml
+title: "About Zikun"
+description: "Pursuing Master of InformationScience"
+remote_theme: "pages-themes/minimal@v0.2.0"
+show_downloads: true
+plugins:
+  - jekyll-remote-theme  # make sure this plugin is enabled
