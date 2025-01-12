@@ -1,7 +1,17 @@
 # _config.yml
 title: "About Zikun"
-description: "Pursuing Master of InformationScience"
+logo: "assets/images/logo.png"
+description: "Pursuing Master of Information Science"
 remote_theme: "pages-themes/minimal@v0.2.0"
-show_downloads: true
+show_downloads: false
 plugins:
-  - jekyll-remote-theme  # make sure this plugin is enabled
+  - jekyll-remote-theme
+links:
+  - title: GitHub
+    url: https://github.com/ZikunFu/
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/zikun-fu/
+  - title: CV
+    url: https://zikunfu.github.io/assets/pdf/resume.pdf
+  - title: Email
+    url: mailto:zikun.fu@ontariotechu.net
