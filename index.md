@@ -5,59 +5,51 @@ title: "Home"
 
 # Greetings!
 
-My name is **Zikun Fu**, a graduate student in Information Science at Ontario Tech University.  
-I have a strong background in AI, Machine Learning and data science.  
+My name is **Zikun Fu**, and I am currently pursuing a Master of Information Science at Ontario Tech University, specializing in **Machine Learning**, **Databases**, and **Natural Language Processing (NLP)**. I am passionate about advancing technologies that bridge human understanding and structured systems.
 
-I am currently pursuing a Master of Information Science at Ontario Tech University, specializing in 
-Machine Learning, Databases, and Natural Language Processing. 
-
-I love exploring how AI can improve workflows—whether it’s automating repetitive tasks with Python & Bash 
-or integrating advanced ML models to solve data-driven challenges.
-
-When I'm not coding or researching, I'm a huge fan of sci-fi and fantasy shows, as well as video games.
+When I'm not coding or researching, I enjoy immersing myself in **sci-fi and fantasy shows** and playing **video games**.
 
 # Current Research
 
-I focus on **Closed-Domain Named Entity Recognition (CD-NER)**, a specialized area of NLP that extracts entities from a fixed database schema. This contrasts with general-purpose NER by leveraging domain-specific contexts and handling vast, predefined vocabularies.
+I focus on **Closed-Domain Named Entity Recognition (CD-NER)**.
 
->  Closed-domain named entity recognition (CD-NER) involves 
->  extracting entities from a fixed set of values in
->  a database, which can be very large. Unlike general
->  purpose NER, CD-NER leverages domain-specific prop
->  erties to improve extraction. However, the lack of high
->  quality benchmark datasets limits progress. CD-NER
->  involves extracting entities from text that belong to ele
->  ments of a structured database, such as table and column
->  names, or partial tuple values. 
+> Closed-domain named entity recognition (CD-NER) involves extracting entities from a fixed set of values in a database. Unlike general-purpose NER, CD-NER leverages domain-specific properties to improve extraction. However, challenges such as large entity pools, domain-specific vocabulary, and varied phrasing complicate extraction efforts. My research addresses these challenges by developing new benchmarks and techniques.
 
 ---
 
 ## Key Highlights
 
-### Contributions
-- **Dataset Creation**: Converted text-to-SQL datasets (e.g., BIRD) into CD-NER benchmarks using fuzzy string matching and structured annotations.
-- **Model Evaluation**: Fine-tuned state-of-the-art NER models (T5 and Flair) on CD-NER benchmark.
+### **Research Contributions**
+- **Benchmark Development**: Converted text-to-SQL datasets (e.g., BIRD, Spider) into CD-NER benchmarks using structured annotations and fuzzy matching techniques.
+- **Model Evaluation**: Fine-tuned state-of-the-art NER models (T5, Flair) and proposed baselines for CD-NER tasks.
+- **Innovative Techniques**: Addressed challenges in tokenization, synonyms, and alignment using domain-specific strategies.
 
-### Challenges Addressed
-- **Domain-Specific Vocabulary**: Tackled challenges with varied phrasing, synonyms, and tokenization.
-- **Annotation Quality**: Improved alignment between database schemas and natural language through advanced fuzzy matching techniques.
+### **Talks and Publications**
+- Presented **“Transforming Text-to-SQL Datasets into Closed-Domain NER Benchmarks”** at [Ontario Database Day 2024 (OnDBD)](https://ondbd.ca/talk_2024/talk_32.pdf), University of Waterloo.  
+  - Shared methodologies and findings with database and NLP experts across Ontario.
+  - Explored collaborative approaches to advancing database-driven NLP tasks.  
+- Authored an article: [**Approaches and Challenges in Annotating a Closed-Domain NER Dataset**](https://kenpu.ca/articles/Approaches%20and%20Challenges%20in%20Annotating%20a%20Closed%20Domain%20NER%20Dataset.html).  
+  - Discussed techniques for creating CD-NER benchmarks, alignment issues, and best practices in annotation.  
 
-My research aims to advance CD-NER by addressing its unique challenges and enabling better extraction from structured database schemas, paving the way for innovations in database-driven NLP tasks.
-
-Learn more from my [ONDBD 2024 talk at the University of Waterloo](https://ondbd.ca/talk_2024/talk_32.pdf).
+---
 
 # Projects
 
-Below is a selection of my academic projects.
+Below are selected projects highlighting my academic and technical expertise:
 
-## 1. Semantic Search Using Embedding Models
-- **Timeframe:** 2024 Spring
-- **Tools:** HuggingFace Transformers, advanced embedding techniques
-- **Outcome:** Improved accuracy and relevance in search results by fine-tuning domain-specific models.
+## **1. Semantic Search Using Embedding Models**
+- **Timeframe**: Spring 2024  
+- **Tools**: HuggingFace Transformers, advanced embedding techniques.  
+- **Outcome**: Enhanced search accuracy by fine-tuning models for domain-specific semantic understanding.
 
-## 2. Facial Emotion Recognition Analysis
-- **Timeframe:** 2023 Winter
-- **Tools:** Py-Feat, Matplotlib, Pandas, Scikit-learn
-- **Outcome:** Achieved high classification accuracy for distinguishing genuine vs. posed emotions.
+## **2. Facial Emotion Recognition Analysis**
+- **Timeframe**: Winter 2023  
+- **Tools**: Py-Feat, Matplotlib, Pandas, Scikit-learn.  
+- **Outcome**: Provided insights into the nuances of emotional expressions and highlighted areas where current emotion recognition technologies excel or face challenges.
 
-Interested in more details? [Contact me](mailto:Zikun.Fu@ontariotechu.net)
+---
+
+## Learn More or Connect
+Interested in collaboration or learning more about my work?  
+- [Contact me via email](mailto:Zikun.Fu@ontariotechu.net)  
+- Visit my [GitHub](https://github.com/zikunfu) for code and projects.
