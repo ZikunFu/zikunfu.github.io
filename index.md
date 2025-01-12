@@ -11,7 +11,5 @@ I have a strong background in Linux, system administration, AI/ML, and data scie
 - **[About Me](about.md)**
 - **[Research](research.md)**
 - **[Projects](projects.md)**
-- **[SysAdmin Application](sysadmin-application.md)**
-- **[Résumé](resume.md)**
 
 Feel free to explore the pages above to learn more about me and my work!
