@@ -1,6 +1,6 @@
 # _config.yml
 title: "About Zikun"
-logo: "assets/images/logo.png"
+logo: "assets/img/portrait.jpg"
 description: "Pursuing Master of Information Science"
 remote_theme: "pages-themes/minimal@v0.2.0"
 show_downloads: false
