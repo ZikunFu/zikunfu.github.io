@@ -17,18 +17,16 @@ I focus on **Closed-Domain Named Entity Recognition (CD-NER)**.
 
 ---
 
-## Key Highlights
-
-### **Research Contributions**
+## **Contributions**
 - **Benchmark Development**: Converted text-to-SQL datasets (e.g., BIRD, Spider) into CD-NER benchmarks using structured annotations and fuzzy matching techniques.
 - **Model Evaluation**: Fine-tuned state-of-the-art NER models (T5, Flair) and proposed baselines for CD-NER tasks.
 - **Innovative Techniques**: Addressed challenges in tokenization, synonyms, and alignment using domain-specific strategies.
 
-### **Talks and Publications**
+## **Talks and Publications**
 - Presented **“Transforming Text-to-SQL Datasets into Closed-Domain NER Benchmarks”** at [Ontario Database Day 2024 (OnDBD)](https://ondbd.ca/talk_2024/talk_32.pdf), University of Waterloo.  
   - Shared methodologies and findings with database and NLP experts across Ontario.
   - Explored collaborative approaches to advancing database-driven NLP tasks.  
-- Authored an article: [**Approaches and Challenges in Annotating a Closed-Domain NER Dataset**](https://kenpu.ca/articles/Approaches%20and%20Challenges%20in%20Annotating%20a%20Closed%20Domain%20NER%20Dataset.html).  
+- Authored an article on [Approaches and Challenges in Annotating a Closed-Domain NER Dataset](https://kenpu.ca/articles/Approaches%20and%20Challenges%20in%20Annotating%20a%20Closed%20Domain%20NER%20Dataset.html).  
   - Discussed techniques for creating CD-NER benchmarks, alignment issues, and best practices in annotation.  
 
 ---
@@ -52,4 +50,6 @@ Below are selected projects highlighting my academic and technical expertise:
 ## Learn More or Connect
 Interested in collaboration or learning more about my work?  
 - [Contact me via email](mailto:Zikun.Fu@ontariotechu.net)  
+- Check out my [LinkedIn](https://www.linkedin.com/in/zikun-fu/) for posts and updates.
 - Visit my [GitHub](https://github.com/zikunfu) for code and projects.
+- Here's my [CV](https://zikunfu.github.io/assets/pdf/resume.pdf).
