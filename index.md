@@ -35,15 +35,72 @@ I focus on **Closed-Domain Named Entity Recognition (CD-NER)**.
 
 Below are selected projects highlighting my academic and technical expertise:
 
-## **1. Semantic Search Using Embedding Models**
+## **Graduate**
+
+### **1. Grex.eilab.ca Migration Project**
+- **Timeframe**: Winter 2024 (ongoing)
+- **Role**: Lead Developer  
+- **Outcome**:  
+  - Planned the development strategy, timeline, and technical requirements for migrating grex.eilab.ca to a new application platform.  
+  - Designed a comprehensive roadmap to facilitate the migration, focusing on maintaining functional parity and improving scalability.  
+  - Currently working on the migration and deployment process.  
+  - Ensuring high availability and streamlined functionality in the new platform while maintaining data integrity and user experience.
+
+### **2. Semantic Search Using Embedding Models**
 - **Timeframe**: Spring 2024  
 - **Tools**: HuggingFace Transformers, advanced embedding techniques.  
 - **Outcome**: Enhanced search accuracy by fine-tuning models for domain-specific semantic understanding.
 
-## **2. Facial Emotion Recognition Analysis**
+### **3. Facial Emotion Recognition Analysis**
 - **Timeframe**: Winter 2023  
 - **Tools**: Py-Feat, Matplotlib, Pandas, Scikit-learn.  
 - **Outcome**: Provided insights into the nuances of emotional expressions and highlighted areas where current emotion recognition technologies excel or face challenges.
+
+
+---
+
+## **Undergraduate**
+
+### **1. Web Application Development**
+- **Timeframe**: Winter 2022  
+- **Tools**: Node.js, CSS, SVG, JavaScript, Pug, MongoDB  
+- **Outcome**:  
+  - Developed a fully responsive website, handling both front-end and back-end.  
+  - Independently researched and integrated Google API for enhanced functionality.  
+  - Led the project team (organizing schedules, task division, communication).  
+  - Achieved an A+ through high-quality design and meeting/exceeding project requirements.
+
+### **2. Big Data Analytics**
+- **Timeframe**: Winter 2022  
+- **Tools**: Frequent itemset algorithms (Apriori, PCY, Sampling, SON), Weka  
+- **Outcome**:  
+  - Implemented market-basket analysis with various frequent itemset algorithms.  
+  - Built and evaluated data mining models on real-world datasets using Weka.  
+  - Gained valuable data cleaning and machine learning knowledge.
+
+### **3. Database Systems and Concepts**
+- **Timeframe**: Fall 2021  
+- **Tools**: PostgreSQL, Toad Data Modeler  
+- **Outcome**:  
+  - Designed and implemented a movie database (similar to IMDb).  
+  - Strengthened SQL programming skills and familiarity with database systems.  
+  - Efficiently operated the database with complex queries for reliable data retrieval.
+
+### **4. Software Design & Analysis**
+- **Timeframe**: Winter 2020  
+- **Tools**: Microsoft Visio  
+- **Outcome**:  
+  - Created a Curbside Pickup System using UML (Use Case Diagrams, Domain Models, Interaction Models, etc.).  
+  - Demonstrated proficiency in system design and diagramming, earning an A+.
+
+### **5. Systems Integration & Development**
+- **Timeframe**: Winter 2020  
+- **Tools**: Java (Multithreading, GUI)  
+- **Outcome**:  
+  - Implemented a text-based multiplayer game with a Java GUI interface and a multithreaded server-client architecture.  
+  - Led a team by organizing schedules, communication, and deadlines.  
+  - Delivered a bug-free, fully functional game system.
+
 
 ---
 
