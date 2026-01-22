@@ -9,9 +9,9 @@ ML/NLP-focused Master's student building systems that connect **natural language
 
 - Location: Oshawa, ON (open to Toronto/Ottawa/remote)
 - Email: [Zikun.Fu@ontariotechu.net](mailto:Zikun.Fu@ontariotechu.net)
-- LinkedIn: <https://www.linkedin.com/in/zikun-fu/>
-- GitHub: <https://github.com/ZikunFu/>
-- Resume (PDF): <https://zikunfu.github.io/assets/resume/main.pdf>
+- LinkedIn: [linkedin.com/in/zikun-fu](https://www.linkedin.com/in/zikun-fu/)
+- GitHub: [github.com/ZikunFu](https://github.com/ZikunFu/)
+- Resume: [Resume_ZikunFu.pdf](https://zikunfu.github.io/assets/resume/Resume_ZikunFu.pdf)
 
 ---
 
