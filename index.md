@@ -3,110 +3,94 @@ layout: default
 title: "Home"
 ---
 
-# Greetings!
+# Zikun Fu — ML/NLP + Data Systems
 
-My name is **Zikun Fu**, and I am currently pursuing a Master of Information Science at Ontario Tech University, specializing in **Machine Learning**, **Databases**, and **Natural Language Processing (NLP)**. I am passionate about advancing technologies that bridge human understanding and structured systems.
+ML/NLP-focused Master's student building systems that connect **natural language to structured data**. Built a database entity recognition pipeline (outperforming widely adopted frameworks) with 30× synthetic data augmentation, and led a containerized platform migration (3,400+ multilingual records across 60+ research groups). Strong Python, PyTorch/Transformers, SQL, Docker, and REST API integration.
 
-When I'm not coding or researching, I enjoy immersing myself in **sci-fi and fantasy shows** and playing **video games**.
-
-# Current Research
-
-I focus on **Closed-Domain Named Entity Recognition (CD-NER)**.
-
-> Closed-domain named entity recognition (CD-NER) involves extracting entities from a fixed set of values in a database. Unlike general-purpose NER, CD-NER leverages domain-specific properties to improve extraction. However, challenges such as large entity pools, domain-specific vocabulary, and varied phrasing complicate extraction efforts. My research addresses these challenges by developing new benchmarks and techniques.
+- Location: Oshawa, ON (open to Toronto/Ottawa/remote)
+- Email: [Zikun.Fu@ontariotechu.net](mailto:Zikun.Fu@ontariotechu.net)
+- LinkedIn: <https://www.linkedin.com/in/zikun-fu/>
+- GitHub: <https://github.com/ZikunFu/>
+- Resume (PDF): <https://zikunfu.github.io/assets/resume/main.pdf>
 
 ---
 
-## **Contributions**
-- **Benchmark Development**: Converted text-to-SQL datasets (e.g., BIRD, Spider) into CD-NER benchmarks using structured annotations and fuzzy matching techniques.
-- **Model Evaluation**: Fine-tuned state-of-the-art NER models (T5, Flair) and proposed baselines for CD-NER tasks.
-- **Innovative Techniques**: Addressed challenges in tokenization, synonyms, and alignment using domain-specific strategies.
+## Key Achievements
 
-## **Talks and Publications**
-- Presented **“Transforming Text-to-SQL Datasets into Closed-Domain NER Benchmarks”** at [Ontario Database Day 2024 (OnDBD)](https://ondbd.ca/talk_2024/talk_32.pdf), University of Waterloo.  
-  - Shared methodologies and findings with database and NLP experts across Ontario.
-  - Explored collaborative approaches to advancing database-driven NLP tasks.  
-- Authored an article on [Approaches and Challenges in Annotating a Closed-Domain NER Dataset](https://kenpu.ca/articles/Approaches%20and%20Challenges%20in%20Annotating%20a%20Closed%20Domain%20NER%20Dataset.html).  
-  - Discussed techniques for creating CD-NER benchmarks, alignment issues, and best practices in annotation.  
+| Area | Result |
+|------|--------|
+| **NLP/ML Pipeline** | Built end-to-end Database entity recognition, outperforming industry frameworks |
+| **Data Augmentation** | Generated synthetic data via novel pipeline; outperforms human gold labels |
+| **Embeddings & Retrieval** | Designed novel DB grounding module; up to 10% performance gain |
+| **Full-Stack Migration** | Dockerized LimeSurvey 6.x (MySQL + Apache); Python ETL via REST API importing 3,400+ multilingual records |
 
 ---
 
-# Projects
+## Technical Skills
 
-Below are selected projects highlighting my academic and technical expertise:
+**Languages**: Python, SQL, PHP, JavaScript, Bash
 
-## **Graduate**
+**ML/NLP**: PyTorch, Hugging Face Transformers (T5, BERT, MiniLM), scikit-learn, TensorFlow; NER/sequence labeling, embeddings, semantic similarity, fine-tuning, evaluation
 
-### **1. Grex.eilab.ca Migration Project**
-- **Timeframe**: Winter 2024 (ongoing)
-- **Role**: Lead Developer  
-- **Outcome**:  
-  - Planned the development strategy, timeline, and technical requirements for migrating grex.eilab.ca to a new application platform.  
-  - Designed a comprehensive roadmap to facilitate the migration, focusing on maintaining functional parity and improving scalability.  
-  - Currently working on the migration and deployment process.  
-  - Ensuring high availability and streamlined functionality in the new platform while maintaining data integrity and user experience.
+**Data & Pipelines**: pandas, NumPy, ETL, SQL parsing (pglast), constraint optimization (OR-Tools CP-SAT); SQLite, MySQL, PostgreSQL, MongoDB
 
-### **2. Semantic Search Using Embedding Models**
-- **Timeframe**: Spring 2024  
-- **Tools**: HuggingFace Transformers, advanced embedding techniques.  
-- **Outcome**: Enhanced search accuracy by fine-tuning models for domain-specific semantic understanding.
+**Backend/APIs**: REST API integration (LimeSurvey RC2, Google API), FastAPI (familiar), Docker, Docker Compose, Apache reverse proxy
 
-### **3. Facial Emotion Recognition Analysis**
-- **Timeframe**: Winter 2023  
-- **Tools**: Py-Feat, Matplotlib, Pandas, Scikit-learn.  
-- **Outcome**: Provided insights into the nuances of emotional expressions and highlighted areas where current emotion recognition technologies excel or face challenges.
-
+**DevOps/Infra**: Linux, DigitalOcean, Git/GitHub, automated TLS (Let's Encrypt), cron, SSH
 
 ---
 
-## **Undergraduate**
+## Experience
 
-### **1. Web Application Development**
-- **Timeframe**: Winter 2022  
-- **Tools**: Node.js, CSS, SVG, JavaScript, Pug, MongoDB  
-- **Outcome**:  
-  - Developed a fully responsive website, handling both front-end and back-end.  
-  - Independently researched and integrated Google API for enhanced functionality.  
-  - Led the project team (organizing schedules, task division, communication).  
-  - Achieved an A+ through high-quality design and meeting/exceeding project requirements.
+### GREx Redevelopment Project Manager
+**The Educational Informatics Laboratory (EILab), OTU** | *Dec 2024 - May 2025*
 
-### **2. Big Data Analytics**
-- **Timeframe**: Winter 2022  
-- **Tools**: Frequent itemset algorithms (Apriori, PCY, Sampling, SON), Weka  
-- **Outcome**:  
-  - Implemented market-basket analysis with various frequent itemset algorithms.  
-  - Built and evaluated data mining models on real-world datasets using Weka.  
-  - Gained valuable data cleaning and machine learning knowledge.
+- Led full-stack migration to Docker (LimeSurvey + MySQL + Apache); Python ETL via REST API importing 3,400+ multilingual records across 60+ research groups.
+- Built PHP backend modules and Chart.js dashboards for data visualization.
 
-### **3. Database Systems and Concepts**
-- **Timeframe**: Fall 2021  
-- **Tools**: PostgreSQL, Toad Data Modeler  
-- **Outcome**:  
-  - Designed and implemented a movie database (similar to IMDb).  
-  - Strengthened SQL programming skills and familiarity with database systems.  
-  - Efficiently operated the database with complex queries for reliable data retrieval.
+### Research Associate
+**Ontario Tech University** | *Jan 2024 - Present*
 
-### **4. Software Design & Analysis**
-- **Timeframe**: Winter 2020  
-- **Tools**: Microsoft Visio  
-- **Outcome**:  
-  - Created a Curbside Pickup System using UML (Use Case Diagrams, Domain Models, Interaction Models, etc.).  
-  - Demonstrated proficiency in system design and diagramming, earning an A+.
-
-### **5. Systems Integration & Development**
-- **Timeframe**: Winter 2020  
-- **Tools**: Java (Multithreading, GUI)  
-- **Outcome**:  
-  - Implemented a text-based multiplayer game with a Java GUI interface and a multithreaded server-client architecture.  
-  - Led a team by organizing schedules, communication, and deadlines.  
-  - Delivered a bug-free, fully functional game system.
-
+- Collaborated with faculty in data science research including DB-ER task formalization, data analysis, and deep learning model design.
+- TA for undergraduate courses; integrated AI tools into teaching workflows.
 
 ---
 
-## Learn More or Connect
-Interested in collaboration or learning more about my work?  
-- [Contact me via email](mailto:Zikun.Fu@ontariotechu.net)  
-- Check out my [LinkedIn](https://www.linkedin.com/in/zikun-fu/) for posts and updates.
-- Visit my [GitHub](https://github.com/zikunfu) for code and projects.
-- Here's my [CV](https://zikunfu.github.io/assets/resume/Resume_ZikunFu.pdf).
+## Research
+
+### Master's Thesis: Database Entity Recognition for Text-to-SQL Systems
+*2024 Fall - Present*
+
+DB-ER task formalization; created human and synthetic benchmarks; designed end-to-end DB-ER pipeline.
+
+**Contributions**:
+- **Formalization**: Defined DB-ER as a sequence labeling task
+- **Benchmark**: 1K human-annotated dataset derived from Spider & BIRD
+- **Augmentation**: 15K synthetic dataset via data augmentation pipeline
+- **Architecture**: T5 tagger + MiniLM-based DB verification
+
+---
+
+## Publications
+
+- **Z. Fu**, C. Yang, K. Davoudi, K. Q. Pu. "Database Entity Recognition with Data Augmentation and Deep Learning." *IEEE IRI 2025*, San Jose, CA. [DOI: 10.1109/IRI66576.2025.00071](https://doi.org/10.1109/IRI66576.2025.00071)
+- Ontario Database Day 2024: [Transforming Text-to-SQL Datasets into Closed-Domain NER Benchmarks](https://ondbd.ca/talk_2024/talk_32.pdf)
+
+---
+
+## Education
+
+**Ontario Tech University** — Master of Information Science | *Exp. 2026* | GPA: 4.24/4.3
+
+**Ontario Tech University** — BSc (Hons) Computer Science (Data Science) | *2019 - 2023* | GPA: 3.86/4.3
+
+---
+
+## What I'm Looking For
+
+Applied R&D roles combining **Python**, **ML/NLP**, **embeddings/retrieval**, **data systems**, and **backend/API integration**—especially:
+
+- Natural language interfaces to data (Text-to-SQL, query builders)
+- Retrieval/semantic search and RAG systems
+- ML pipelines and evaluation infrastructure
+- Data platform and ETL work
