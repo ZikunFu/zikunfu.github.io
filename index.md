@@ -5,7 +5,7 @@ title: "Home"
 
 # Zikun Fu — ML/NLP + Data Systems
 
-ML/NLP-focused Master's student building systems that connect **natural language to structured data**. Built a database entity recognition pipeline (outperforming widely adopted frameworks) with 30× synthetic data augmentation, and led a containerized platform migration (3,400+ multilingual records across 60+ research groups). Strong Python, PyTorch/Transformers, SQL, Docker, and REST API integration.
+ML/NLP-focused Master's student building systems that connect **natural language to structured data**. Built a database entity recognition pipeline (outperforming widely adopted frameworks) with synthetic data augmentation, and led a containerized platform migration (3,400+ multilingual records across 60+ research groups). Strong Python, PyTorch/Transformers, SQL, Docker, and REST API integration.
 
 - Location: Oshawa, ON (open to Toronto/Ottawa/remote)
 - Email: [Zikun.Fu@ontariotechu.net](mailto:Zikun.Fu@ontariotechu.net)
