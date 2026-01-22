@@ -109,4 +109,4 @@ Interested in collaboration or learning more about my work?
 - [Contact me via email](mailto:Zikun.Fu@ontariotechu.net)  
 - Check out my [LinkedIn](https://www.linkedin.com/in/zikun-fu/) for posts and updates.
 - Visit my [GitHub](https://github.com/zikunfu) for code and projects.
-- Here's my [CV](https://zikunfu.github.io/assets/pdf/Resume_ZikunFu.pdf).
+- Here's my [CV](https://zikunfu.github.io/assets/resume/Resume_ZikunFu.pdf).
