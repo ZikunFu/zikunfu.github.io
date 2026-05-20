@@ -59,7 +59,7 @@ ML/NLP-focused Master's student building systems that connect **natural language
 ## Research
 
 ### Master's Thesis: Database Entity Recognition for Text-to-SQL Systems
-*2024 Fall - Present*
+*2024 Fall - 2025 Winter*
 
 DB-ER task formalization; created human and synthetic benchmarks; designed end-to-end DB-ER pipeline.
 
@@ -80,17 +80,6 @@ DB-ER task formalization; created human and synthetic benchmarks; designed end-t
 
 ## Education
 
-**Ontario Tech University** — Master of Information Science | *Exp. 2026* | GPA: 4.24/4.3
+**Ontario Tech University** — Master of Information Science | *2024 - 2026* | GPA: 4.24/4.3
 
 **Ontario Tech University** — BSc (Hons) Computer Science (Data Science) | *2019 - 2023* | GPA: 3.86/4.3
-
----
-
-## What I'm Looking For
-
-Applied R&D roles combining **Python**, **ML/NLP**, **embeddings/retrieval**, **data systems**, and **backend/API integration**—especially:
-
-- Natural language interfaces to data (Text-to-SQL, query builders)
-- Retrieval/semantic search and RAG systems
-- ML pipelines and evaluation infrastructure
-- Data platform and ETL work
