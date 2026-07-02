@@ -6,7 +6,7 @@ Personal portfolio and resume site for Zikun Fu.
 
 ## Contents
 
-- `index.md` — Main portfolio page (ML/NLP + Data Systems focus)
+- `index.md` — Main portfolio page (ML/NLP · AI Automation · Data Systems)
 - `assets/resume/main.tex` — LaTeX resume source
 - `assets/resume/main.pdf` — Compiled resume PDF
 

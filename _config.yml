@@ -1,7 +1,7 @@
 # _config.yml
 title: "About Zikun"
 logo: "assets/img/portrait.jpg"
-description: "ML/NLP + Data Systems | Master of Information Science"
+description: "ML/NLP · AI Automation · Data Systems | MSc Computer Science"
 remote_theme: "pages-themes/minimal@v0.2.0"
 show_downloads: false
 plugins:
@@ -12,6 +12,6 @@ links:
   - title: LinkedIn
     url: https://www.linkedin.com/in/zikun-fu/
   - title: CV
-    url: https://zikunfu.github.io/assets/resume/main.pdf
+    url: https://zikunfu.github.io/assets/resume/Resume_ZikunFu.pdf
   - title: Email
     url: mailto:zikun.fu@ontariotechu.net
