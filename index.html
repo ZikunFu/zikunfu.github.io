@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zikun Fu — ML/NLP · AI Automation · Data Systems</title>
+<meta name="description" content="MSc Computer Science graduate (Ontario Tech University, 2026) working at the intersection of language models and structured data.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>
+  (function () {
+    try {
+      if (localStorage.getItem("theme") === "dark") {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    } catch (e) {}
+  })();
+</script>
+</head>
+<body>
+
+<div class="theme-toggle-bar">
+  <div class="container-960">
+    <button id="theme-toggle" aria-label="Toggle dark mode" class="btn-toggle">● Dark</button>
+  </div>
+</div>
+
+<!-- HERO -->
+<header class="hero container-960">
+  <div class="hero-main">
+    <div class="eyebrow">ML/NLP · AI Automation · Data Systems</div>
+    <h1>Zikun Fu</h1>
+    <p class="subtle-line">MSc Computer Science, Ontario Tech University · 2026 · Oshawa, ON (open to Toronto / Ottawa / remote)</p>
+    <p class="intro">MSc Computer Science graduate working at the intersection of language models and structured data. My thesis formalized Database Entity Recognition and reached 93.2% F1 with a T5 + MiniLM pipeline, published at IEEE IRI 2025. Recently building grounded LLM systems and AI automation — a production-style analytics assistant with structural anti-hallucination guarantees (100% grounding / 0% hallucination on its evaluation harness), and automation pipelines that turn hours of manual review into fully auditable, human-gated LLM runs.</p>
+
+    <div class="contact-row">
+      <a href="mailto:Zikun.Fu@ontariotechu.net" class="contact-link">
+        <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg></span>
+        Email
+      </a>
+      <a href="https://www.linkedin.com/in/zikun-fu/" target="_blank" rel="noreferrer" class="contact-link">
+        <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4V8h4v1.5A5 5 0 0 1 16 8Z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></span>
+        LinkedIn
+      </a>
+      <a href="https://github.com/ZikunFu/" target="_blank" rel="noreferrer" class="contact-link">
+        <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-3.9a3.4 3.4 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 19 4.77 5.07 5.07 0 0 0 18.91.5S17.73.15 15 2a13.38 13.38 0 0 0-6 0C6.27.15 5.09.5 5.09.5A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.4 3.4 0 0 0 9 18.13V22"/><path d="M9 20c-3 .87-5.3 0-6.5-3"/></svg></span>
+        GitHub
+      </a>
+      <a href="assets/resume/Resume_ZikunFu.pdf" target="_blank" rel="noreferrer" class="btn-resume">Resume (PDF)</a>
+    </div>
+  </div>
+
+  <img src="assets/img/portrait.jpg" alt="Portrait of Zikun Fu" class="portrait">
+</header>
+
+<!-- HIGHLIGHTS -->
+<section class="alt-section">
+  <div class="container-960 alt-inner">
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-number">93.2%</div>
+        <div class="stat-label">F1 — MSc thesis, closed-world verification</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">100% / 0%</div>
+        <div class="stat-label">Grounding accuracy / hallucination — analytics assistant</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">$0.15</div>
+        <div class="stat-label">Per-student cost — LLM exam grading pipeline</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">3,400+</div>
+        <div class="stat-label">Multilingual records migrated across 60+ research groups</div>
+      </div>
+    </div>
+
+    <div class="demo-card">
+      <div class="demo-head">
+        <div class="demo-title">How the grounding works — Hermes Clinic Analytics</div>
+        <button id="demo-replay" class="btn-replay">↻ Replay</button>
+      </div>
+      <div class="demo-subtitle">Illustrative walkthrough of the live architecture — not real clinic data.</div>
+
+      <div class="demo-user-row">"How did revenue change last month vs. the month before?"</div>
+
+      <div class="demo-steps">
+        <div class="demo-step" data-step="0">
+          <div class="demo-dot"></div>
+          <div class="demo-step-body-wrap">
+            <div class="demo-step-label">Parse question</div>
+            <div class="demo-step-body">Entities detected: metric = revenue, range = last month vs. prior month</div>
+          </div>
+        </div>
+        <div class="demo-step" data-step="1">
+          <div class="demo-dot"></div>
+          <div class="demo-step-body-wrap">
+            <div class="demo-step-label">Generate SQL (allowlisted, read-only)</div>
+            <div class="demo-step-body mono">SELECT month, SUM(total) FROM invoices WHERE … — validated by sqlglot before it can run</div>
+          </div>
+        </div>
+        <div class="demo-step" data-step="2">
+          <div class="demo-dot"></div>
+          <div class="demo-step-body-wrap">
+            <div class="demo-step-label">Execute against DuckDB</div>
+            <div class="demo-step-body">Query runs read-only; result rows + exact SQL are captured as provenance</div>
+          </div>
+        </div>
+        <div class="demo-step" data-step="3">
+          <div class="demo-dot"></div>
+          <div class="demo-step-body-wrap">
+            <div class="demo-step-label">Answer, cited to the query</div>
+            <div class="demo-step-body">Revenue rose from $38,150 to $41,760 (+9.5%) — every number traces back to the query above, never model-typed</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<main class="container-720">
+
+  <!-- PROJECTS -->
+  <section class="section">
+    <h2>Projects</h2>
+    <div class="card-list">
+      <article class="card">
+        <div class="card-head">
+          <h3>Hermes Clinic Analytics</h3>
+          <span class="muted-mono">2026</span>
+        </div>
+        <a href="https://github.com/ZikunFu/hermes-clinic-analytics" target="_blank" rel="noreferrer" class="inline-link">github.com/ZikunFu/hermes-clinic-analytics ↗</a>
+        <p class="body-text">A chat assistant that answers business questions over a simulated optometry clinic's data with structural anti-hallucination guarantees: a read-only DuckDB engine, a sqlglot-parsed SQL allowlist, charts built from query results (never model-typed numbers), and exact SQL provenance on every answer. An oracle-backed scoring harness measures 100% grounding accuracy and 0% hallucination; 59 offline unit tests plus a live bypass-safety suite verify the guarantees hold. Built on the Hermes agent platform with Open WebUI as the front-end.</p>
+      </article>
+
+      <article class="card">
+        <div class="card-head">
+          <h3>Web Presence Report</h3>
+          <span class="muted-mono">2026</span>
+        </div>
+        <span class="badge">Ongoing client engagement</span>
+        <p class="body-text">An automated pipeline for a local optometry clinic that turns its scattered online footprint — Google Business Profile, reviews, PageSpeed, 25-point geo-grid rankings, backlinks, on-page health — into a graded, client-ready report with a 30/60/90-day action plan. Built-in cost gates (estimated spend approved before any paid API call; a full run is under $1) and human-review gates for health-content compliance (every clinical claim is flagged for clinician sign-off; review text is never reproduced verbatim). LLM use is interpretation-only: the AI writes the narrative, never the numbers.</p>
+      </article>
+
+      <article class="card">
+        <div class="card-head">
+          <h3>LLM Exam Grading Pipeline</h3>
+          <span class="muted-mono">2026</span>
+        </div>
+        <p class="body-text">Auto-grades scanned handwritten final exams for a 4th-year compilers course by sending per-question page images to Claude (via OpenRouter) with model solutions and strict grading rules. Produces per-sub-question scores with confidence and legibility ratings, a human-review flag list, and a full audit trail; prompt caching keeps costs low — ~70 students graded for $10.34 total (~$0.15/student). Flagged items go through a scripted human-review adjustment workflow.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- RESEARCH -->
+  <section class="section">
+    <h2>Research &amp; Publications</h2>
+
+    <article class="card" style="margin-top:24px">
+      <div class="card-head">
+        <h3>MSc Thesis: Database Entity Recognition using Language Models</h3>
+        <span class="muted-mono">Defended Apr 2026</span>
+      </div>
+      <a href="https://hdl.handle.net/10155/2082" target="_blank" rel="noreferrer" class="inline-link">Thesis (Ontario Tech repository) ↗</a>
+      <p class="body-text">Natural-language interfaces to databases must ground user questions to the tables, columns, and values of a schema. The thesis formalizes Database Entity Recognition (DB-ER) as sequence labeling over {O, Table, Column, Value} and studies two settings: an open-world T5 tagger and a closed-world verifier that grounds predictions against a target database via semantic similarity.</p>
+      <ul class="list">
+        <li>Formalization of DB-ER as a sequence labeling task</li>
+        <li>Benchmark: 1,000-example human-annotated dataset derived from Spider &amp; BIRD</li>
+        <li>Synthetic data pipeline: 15,000 training examples generated from paired SQL via AST parsing and integer linear programming</li>
+        <li>Results: T5-Large with synthetic augmentation reaches 80.8% F1; closed-world MiniLM verification raises this to 93.2% F1</li>
+      </ul>
+    </article>
+
+    <div style="margin-top:24px">
+      <h3 class="h3-small">Publications &amp; Talks</h3>
+      <ul class="list">
+        <li>Z. Fu, C. Yang, K. Davoudi, K. Q. Pu. &ldquo;Database Entity Recognition with Data Augmentation and Deep Learning.&rdquo; IEEE IRI 2025, San Jose, CA. <a href="https://doi.org/10.1109/IRI66576.2025.00071" target="_blank" rel="noreferrer" class="inline-link">DOI: 10.1109/IRI66576.2025.00071 ↗</a></li>
+        <li>Ontario Database Day 2024: <a href="https://ondbd.ca/talk_2024/talk_32.pdf" target="_blank" rel="noreferrer" class="inline-link">Transforming Text-to-SQL Datasets into Closed-Domain NER Benchmarks ↗</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section">
+    <h2>Experience</h2>
+    <div class="timeline-wrap">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="card-head">
+          <h3 class="h3-small">Research Assistant</h3>
+          <span class="muted-mono">May 2026 – Present</span>
+        </div>
+        <div class="org">Ontario Tech University</div>
+        <ul class="list">
+          <li>Building grounded LLM systems over structured business data — analytics with hard anti-hallucination guarantees and automated, human-gated reporting pipelines (see Projects above).</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="card-head">
+          <h3 class="h3-small">Teaching Assistant — CSCI 4020U Compilers</h3>
+          <span class="muted-mono">Jan 2024 – May 2026</span>
+        </div>
+        <div class="org">Ontario Tech University</div>
+        <ul class="list">
+          <li>TA for the 4th-year compilers course (Kotlin), including lab support and exam marking.</li>
+          <li>Built an LLM-assisted grading pipeline for handwritten finals with confidence flagging and human review (see Projects above).</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="card-head">
+          <h3 class="h3-small">GREx Redevelopment Project Manager</h3>
+          <span class="muted-mono">Dec 2024 – Apr 2025</span>
+        </div>
+        <div class="org">Mitch and Leslie Frazer Faculty of Education, Ontario Tech University</div>
+        <ul class="list">
+          <li>Led the migration of the GREx research platform from a legacy Symfony/Laravel stack to a Dockerized LimeSurvey 6.x + MySQL environment; deployed to production on DigitalOcean with automated TLS.</li>
+          <li>Wrote Python ETL against the LimeSurvey REST API importing 3,400+ multilingual records across 60+ research groups; built PHP plugin modules and Chart.js dashboards.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section">
+    <h2>Skills</h2>
+    <div class="skill-groups">
+      <div>
+        <div class="skill-group-label">ML/NLP</div>
+        <div class="tag-row">
+          <span class="tag">PyTorch</span>
+          <span class="tag">Hugging Face Transformers (T5, BERT, MiniLM)</span>
+          <span class="tag">scikit-learn</span>
+          <span class="tag">Sequence labeling / NER</span>
+          <span class="tag">Embeddings &amp; semantic similarity</span>
+          <span class="tag">Fine-tuning</span>
+          <span class="tag">Evaluation harness design</span>
+        </div>
+      </div>
+      <div>
+        <div class="skill-group-label">LLM Engineering</div>
+        <div class="tag-row">
+          <span class="tag">Grounded / tool-using agents</span>
+          <span class="tag">SQL generation + allowlist validation (sqlglot)</span>
+          <span class="tag">Prompt design &amp; caching</span>
+          <span class="tag">Structured-output parsing</span>
+          <span class="tag">Hallucination measurement</span>
+          <span class="tag">Cost tracking &amp; gating</span>
+          <span class="tag">Claude API</span>
+          <span class="tag">OpenRouter</span>
+          <span class="tag">Open WebUI</span>
+        </div>
+      </div>
+      <div>
+        <div class="skill-group-label">Data &amp; Pipelines</div>
+        <div class="tag-row">
+          <span class="tag">DuckDB</span>
+          <span class="tag">pandas</span>
+          <span class="tag">NumPy</span>
+          <span class="tag">ETL</span>
+          <span class="tag">sqlglot</span>
+          <span class="tag">pglast</span>
+          <span class="tag">OR-Tools CP-SAT</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">SQLite</span>
+          <span class="tag">MongoDB</span>
+        </div>
+      </div>
+      <div>
+        <div class="skill-group-label">Backend/Infra</div>
+        <div class="tag-row">
+          <span class="tag">REST API integration</span>
+          <span class="tag">Docker &amp; Docker Compose</span>
+          <span class="tag">Apache reverse proxy</span>
+          <span class="tag">Linux</span>
+          <span class="tag">DigitalOcean</span>
+          <span class="tag">Git/GitHub</span>
+          <span class="tag">Let's Encrypt TLS</span>
+          <span class="tag">pytest</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section">
+    <h2>Education</h2>
+    <div class="timeline-wrap">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="card-head">
+          <h3 class="h3-small">MSc, Computer Science</h3>
+          <span class="muted-mono">Jan 2024 – Apr 2026</span>
+        </div>
+        <div class="org">Ontario Tech University · GPA: 4.24/4.3</div>
+        <div class="body-text" style="margin-top:4px">Thesis: Database Entity Recognition using Language Models</div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="card-head">
+          <h3 class="h3-small">BSc (Hons), Computer Science — Data Science specialization</h3>
+          <span class="muted-mono">2019 – 2023</span>
+        </div>
+        <div class="org">Ontario Tech University · GPA: 3.86/4.3</div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container-720 footer-inner">
+    <div class="footer-links">
+      <a href="mailto:Zikun.Fu@ontariotechu.net" class="footer-link">Email</a>
+      <a href="https://www.linkedin.com/in/zikun-fu/" target="_blank" rel="noreferrer" class="footer-link">LinkedIn</a>
+      <a href="https://github.com/ZikunFu/" target="_blank" rel="noreferrer" class="footer-link">GitHub</a>
+    </div>
+    <div class="copyright">© 2026 Zikun Fu</div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
