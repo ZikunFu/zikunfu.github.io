@@ -59,62 +59,25 @@
 <section class="alt-section">
   <div class="container-960 alt-inner">
     <div class="stats-grid">
-      <div class="stat-card">
-        <div class="stat-number">93.2%</div>
-        <div class="stat-label">F1 — MSc thesis, closed-world verification</div>
+      <a href="https://doi.org/10.1109/IRI66576.2025.00071" target="_blank" rel="noreferrer" class="highlight-card highlight-card--hero">
+        <div class="highlight-number highlight-number--hero">93.2%</div>
+        <div class="highlight-claim">F1 on the DB-ER benchmark</div>
+        <div class="highlight-source">T5 · MiniLM · PyTorch · seq-labeling ↗</div>
+      </a>
+      <a href="https://github.com/ZikunFu/hermes-clinic-analytics" target="_blank" rel="noreferrer" class="highlight-card highlight-card--hero">
+        <div class="highlight-number highlight-number--hero">100% / 0%</div>
+        <div class="highlight-claim">grounding accuracy / hallucination</div>
+        <div class="highlight-source">DuckDB · sqlglot · grounded agent ↗</div>
+      </a>
+      <div class="highlight-card highlight-card--supp">
+        <div class="highlight-number highlight-number--supp">$10.34</div>
+        <div class="highlight-claim">to grade a 70-student final exam</div>
+        <div class="highlight-source">Claude · OpenRouter · prompt caching</div>
       </div>
-      <div class="stat-card">
-        <div class="stat-number">100% / 0%</div>
-        <div class="stat-label">Grounding accuracy / hallucination — analytics assistant</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-number">$0.15</div>
-        <div class="stat-label">Per-student cost — LLM exam grading pipeline</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-number">3,400+</div>
-        <div class="stat-label">Multilingual records migrated across 60+ research groups</div>
-      </div>
-    </div>
-
-    <div class="demo-card">
-      <div class="demo-head">
-        <div class="demo-title">How the grounding works — Hermes Clinic Analytics</div>
-        <button id="demo-replay" class="btn-replay">↻ Replay</button>
-      </div>
-      <div class="demo-subtitle">Illustrative walkthrough of the live architecture — not real clinic data.</div>
-
-      <div class="demo-user-row">"How did revenue change last month vs. the month before?"</div>
-
-      <div class="demo-steps">
-        <div class="demo-step" data-step="0">
-          <div class="demo-dot"></div>
-          <div class="demo-step-body-wrap">
-            <div class="demo-step-label">Parse question</div>
-            <div class="demo-step-body">Entities detected: metric = revenue, range = last month vs. prior month</div>
-          </div>
-        </div>
-        <div class="demo-step" data-step="1">
-          <div class="demo-dot"></div>
-          <div class="demo-step-body-wrap">
-            <div class="demo-step-label">Generate SQL (allowlisted, read-only)</div>
-            <div class="demo-step-body mono">SELECT month, SUM(total) FROM invoices WHERE … — validated by sqlglot before it can run</div>
-          </div>
-        </div>
-        <div class="demo-step" data-step="2">
-          <div class="demo-dot"></div>
-          <div class="demo-step-body-wrap">
-            <div class="demo-step-label">Execute against DuckDB</div>
-            <div class="demo-step-body">Query runs read-only; result rows + exact SQL are captured as provenance</div>
-          </div>
-        </div>
-        <div class="demo-step" data-step="3">
-          <div class="demo-dot"></div>
-          <div class="demo-step-body-wrap">
-            <div class="demo-step-label">Answer, cited to the query</div>
-            <div class="demo-step-body">Revenue rose from $38,150 to $41,760 (+9.5%) — every number traces back to the query above, never model-typed</div>
-          </div>
-        </div>
+      <div class="highlight-card highlight-card--supp">
+        <div class="highlight-number highlight-number--supp">3,400+</div>
+        <div class="highlight-claim">multilingual records migrated</div>
+        <div class="highlight-source">LimeSurvey · Twig · MySQL · Python ETL</div>
       </div>
     </div>
   </div>
@@ -132,7 +95,11 @@
           <span class="muted-mono">2026</span>
         </div>
         <a href="https://github.com/ZikunFu/hermes-clinic-analytics" target="_blank" rel="noreferrer" class="inline-link">github.com/ZikunFu/hermes-clinic-analytics ↗</a>
+        <div class="metric-line">100% grounded · 0% hallucinated · 59 tests</div>
         <p class="body-text">A chat assistant that answers business questions over a simulated optometry clinic's data with structural anti-hallucination guarantees: a read-only DuckDB engine, a sqlglot-parsed SQL allowlist, charts built from query results (never model-typed numbers), and exact SQL provenance on every answer. An oracle-backed scoring harness measures 100% grounding accuracy and 0% hallucination; 59 offline unit tests plus a live bypass-safety suite verify the guarantees hold. Built on the Hermes agent platform with Open WebUI as the front-end.</p>
+
+        <button type="button" class="demo-toggle" data-demo-toggle="hermes">Show demo ▾</button>
+        <div class="demo-wrap" data-demo-panel="hermes" hidden></div>
       </article>
 
       <article class="card">
@@ -140,8 +107,12 @@
           <h3>Web Presence Report</h3>
           <span class="muted-mono">2026</span>
         </div>
-        <span class="badge">Ongoing client engagement</span>
+        <span class="badge">Private client engagement — ongoing</span>
+        <div class="metric-line">&lt; $1 per run · cost + compliance gates · full audit trail</div>
         <p class="body-text">An automated pipeline for a local optometry clinic that turns its scattered online footprint — Google Business Profile, reviews, PageSpeed, 25-point geo-grid rankings, backlinks, on-page health — into a graded, client-ready report with a 30/60/90-day action plan. Built-in cost gates (estimated spend approved before any paid API call; a full run is under $1) and human-review gates for health-content compliance (every clinical claim is flagged for clinician sign-off; review text is never reproduced verbatim). LLM use is interpretation-only: the AI writes the narrative, never the numbers.</p>
+
+        <button type="button" class="demo-toggle" data-demo-toggle="report">Show demo ▾</button>
+        <div class="demo-wrap" data-demo-panel="report" hidden></div>
       </article>
 
       <article class="card">
@@ -149,7 +120,12 @@
           <h3>LLM Exam Grading Pipeline</h3>
           <span class="muted-mono">2026</span>
         </div>
+        <span class="badge">Coursework tooling — code private</span>
+        <div class="metric-line">$0.15 / student · 70 students · $10.34 total</div>
         <p class="body-text">Auto-grades scanned handwritten final exams for a 4th-year compilers course by sending per-question page images to Claude (via OpenRouter) with model solutions and strict grading rules. Produces per-sub-question scores with confidence and legibility ratings, a human-review flag list, and a full audit trail; prompt caching keeps costs low — ~70 students graded for $10.34 total (~$0.15/student). Flagged items go through a scripted human-review adjustment workflow.</p>
+
+        <button type="button" class="demo-toggle" data-demo-toggle="grading">Show demo ▾</button>
+        <div class="demo-wrap" data-demo-panel="grading" hidden></div>
       </article>
     </div>
   </section>
@@ -322,11 +298,13 @@
       <a href="mailto:Zikun.Fu@ontariotechu.net" class="footer-link">Email</a>
       <a href="https://www.linkedin.com/in/zikun-fu/" target="_blank" rel="noreferrer" class="footer-link">LinkedIn</a>
       <a href="https://github.com/ZikunFu/" target="_blank" rel="noreferrer" class="footer-link">GitHub</a>
+      <a href="assets/resume/Resume_ZikunFu.pdf" target="_blank" rel="noreferrer" class="footer-link">Resume (PDF)</a>
     </div>
     <div class="copyright">© 2026 Zikun Fu</div>
   </div>
 </footer>
 
 <script src="assets/js/main.js"></script>
+<script src="assets/js/demos.js"></script>
 </body>
 </html>

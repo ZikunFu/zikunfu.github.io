@@ -21,27 +21,4 @@
       applyToggleLabel();
     });
   }
-
-  var steps = document.querySelectorAll(".demo-step");
-  var demoTimer;
-
-  function runDemo(step) {
-    clearTimeout(demoTimer);
-    steps.forEach(function (el, i) {
-      el.classList.toggle("is-active", i <= step);
-    });
-    if (step < steps.length - 1) {
-      demoTimer = setTimeout(function () {
-        runDemo(step + 1);
-      }, 1100);
-    }
-  }
-
-  var replayBtn = document.getElementById("demo-replay");
-  if (replayBtn) {
-    replayBtn.addEventListener("click", function () {
-      runDemo(0);
-    });
-  }
-  if (steps.length) runDemo(0);
 })();
